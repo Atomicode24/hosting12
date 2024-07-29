@@ -12,9 +12,17 @@
         <div class="header__logo">
             <span class="header__logo">Fast <b>Buy</b></span>
         </div>
-        <li class="item"><a href="#"><i class="fa-solid fa-bars abrir"></i></a></li>
+        <!--
+        
+            
+        </ul>
+        -->
+        <div class="contenedor__item">
+            <li class="item"><a href="#"><i class="fa-solid fa-bars abrir"></i></a></li>
+        </div>
         <div class="header__buscador">
-            <input type="text" placeholder="Buscar Producto...">
+            <input class="buscador__input" type="text" placeholder="Buscar Producto...">
+            
         </div>
         <nav class="nav">
             <ul class="nav__list">
@@ -34,8 +42,11 @@
                     <span class="salir"><i class="fa-solid fa-x"></i></span>
                 </div>
             </div>
-            <div class="container__submenus">
-                <div class="container__main1">
+            <div class="container__submenus submenus--modify">
+                <input type="text" placeholder="Buscar Producto..">
+            </div>
+            <nav class="container__submenus">
+                <ul class="container__main1">
                     <h2>Por Departamento</h2>
                     <li><a href="#">Electronico</a>
                         
@@ -43,22 +54,22 @@
                     <li><a href="#">Computadoras</a></li>
                     <li><a href="#">Hogar</a></li>
                     <li><a href="#">Ver Todo</a></li>
-                </div>
-                <div class="container__main2">
+                </ul>
+                <ul class="container__main2">
                     <h2>Ropa y Accesorios</h2>
                     <li><a href="#">Hombre</a></li>
                     <li><a href="#">Mujer</a></li>
                     <li><a href="#">Niño</a></li>
                     <li><a href="#">Animales</a></li>
-                </div>
-                <div class="container__settings">
+                </ul>
+                <ul class="container__settings">
                     <h2>Ayuda & Ajustes</h2>
                     <li><a href="#">Tu Cuenta</a></li>
                     <li><a href="#"><i class="fa-solid fa-language"></i> Español</a></li>
                     <li><a href="#"><i class="fa-solid fa-earth-americas"></i> Urguay</a></li>
-                    <li><a href="#">Iniciar Sesion</a></li>
-                </div>
-            </div>
+                    <li><a href="#" class="abrir__cuenta"> <span><i class="fa-solid fa-user"></i></span> Mi Cuenta</a></li>
+                </ul>
+            </nav>
         </div>
     </div>
 

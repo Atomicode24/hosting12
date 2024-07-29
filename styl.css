@@ -59,7 +59,7 @@
     top: 0;
     left: -400px;
     width: 400px;
-    height: 100%;
+    height: 105%;
     color: #fff;
     transition: left 0.3s ease;
     z-index: 1000;
@@ -306,4 +306,52 @@ button {
     margin: 0;
     color: rgb(102, 101, 101);
     font-weight: 300;
+}
+
+.submenus--modify {
+    display: none;
+}
+
+
+.buscador__icono {
+    display: none;
+}
+
+
+@media screen and (max-width: 428px) {
+    .header {
+        justify-content: space-between;
+    }
+
+    .buscador__input {
+        display: none;
+    }
+
+    .nav__list {
+        display: none;
+    }
+
+    .contenedor__item {
+        margin-left: auto;
+    }
+
+
+    .container__menu {
+        min-width: 100vw;
+        min-height: 100vh;
+        left: -500px;
+    }
+
+    .submenus--modify {
+        display: block;
+    }
+
+    .submenus--modify input {
+        padding: 10px;
+        background-color: #12175f;
+        border: none;
+        color: #fff;
+        border-radius: 20px;
+    }
+    
 }
